@@ -3,29 +3,83 @@
 <head>
     <title>GEAR UP MOTORS</title>
     <meta charset="UTF-8">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- Internal CSS -->
+    <style>
+        body {
+            background-color: #1a1a1a;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        h1 {
+            background-color: #c40000;
+            padding: 15px;
+            border-radius: 10px;
+        }
+
+        h2 {
+            margin-top: 30px;
+            color: #ff3c3c;
+        }
+
+        .container {
+            display: inline-block;
+            background-color: #222;
+            padding: 15px;
+            margin: 15px;
+            border-radius: 15px;
+            box-shadow: 0px 0px 10px #000;
+            width: 320px;
+        }
+
+        table {
+            background-color: #222;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th {
+            background-color: #c40000;
+        }
+
+        td, th {
+            padding: 10px;
+        }
+
+        a {
+            color: #ff3c3c;
+            text-decoration: none;
+            padding: 5px;
+        }
+
+        a:hover {
+            color: white;
+        }
+    </style>
 </head>
 
-<body bgcolor="#111111" text="white">
+<!-- Inline CSS -->
+<body bgcolor="#111111" text="white" style="margin:0;">
 
-<center>
-    <h1 bgcolor="#c40000">GEAR UP MOTORS</h1>
-</center>
+<h1>GEAR UP MOTORS</h1>
 
 <hr>
 
-<center>
-    <a href="#home"><b>Home</b></a> |
-    <a href="#about"><b>About</b></a> |
-    <a href="#gallery"><b>Gallery</b></a> |
-    <a href="#offers"><b>Offers</b></a> |
-    <a href="#contact"><b>Contact</b></a>
-</center>
+<a href="#home"><b>Home</b></a> |
+<a href="#about"><b>About</b></a> |
+<a href="#gallery"><b>Gallery</b></a> |
+<a href="#offers"><b>Offers</b></a> |
+<a href="#contact"><b>Contact</b></a>
 
 <hr>
 
 <!-- HOME SECTION -->
 <a name="home"></a>
-<h2><font color="#ff3c3c">Welcome to Gear Up Motors</font></h2>
+<h2>Welcome to Gear Up Motors</h2>
 
 <p><b>Get your car running like new!</b></p>
 <p><i>We offer high-quality spare parts for every car model.</i></p>
@@ -45,7 +99,7 @@
 
 <!-- ABOUT SECTION -->
 <a name="about"></a>
-<h2><font color="#ff3c3c">About Our Services</font></h2>
+<h2>About Our Services</h2>
 
 <p>Gear Up Motors specializes in genuine and aftermarket automotive spare parts.</p>
 <p>Our mission: keeping your ride smooth, powerful, and road-ready.</p>
@@ -66,46 +120,44 @@
     <li>Interior Detailing</li>
 </ol>
 
-<p>Popular Car Accessories:</p>
-<ul>
-    <li>Seat Covers
-        <ul>
-            <li>Leather</li>
-            <li>Fabric</li>
-            <li>Heated Seats</li>
-            <li>Custom Designs</li>
-            <li>Child Safety Covers</li>
-            <li>Waterproof Covers</li>
-        </ul>
-    </li>
-</ul>
-
 <hr>
 
 <!-- GALLERY SECTION -->
 <a name="gallery"></a>
-<h2><font color="#ff3c3c">Gallery & Video</font></h2>
+<h2>Gallery & Video</h2>
 
-<img src="https://4.imimg.com/data4/RP/VH/MY-4704505/automotive-spare-parts.jpg" width="300">
-<img src="https://naanak.com/wp-content/uploads/2021/11/Volkswagen-Spare-Parts-In-Nairobi-Kenya.jpg" width="300">
-<img src="https://5.imimg.com/data5/SELLER/Default/2023/11/361056031/NF/HU/OW/62417136/car-interior-accessories-500x500.jpg" width="300">
+<div class="container">
+    <img src="https://4.imimg.com/data4/RP/VH/MY-4704505/automotive-spare-parts.jpg" width="300">
+</div>
 
-<br><br>
+<div class="container">
+    <img src="https://naanak.com/wp-content/uploads/2021/11/Volkswagen-Spare-Parts-In-Nairobi-Kenya.jpg" width="300">
+</div>
 
-<iframe width="560" height="315"
-src="https://www.youtube.com/embed/x70VqMrXrbs"
-frameborder="1"
-allowfullscreen>
-</iframe>
+<div class="container">
+    <img src="https://5.imimg.com/data5/SELLER/Default/2023/11/361056031/NF/HU/OW/62417136/car-interior-accessories-500x500.jpg" width="300">
+</div>
+
+<div class="container">
+    <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70" width="300">
+</div>
+
+<div class="container">
+    <iframe width="300" height="200"
+    src="https://www.youtube.com/embed/x70VqMrXrbs"
+    frameborder="1"
+    allowfullscreen>
+    </iframe>
+</div>
 
 <hr>
 
 <!-- OFFERS SECTION -->
 <a name="offers"></a>
-<h2><font color="#ff3c3c">Spare Parts Table</font></h2>
+<h2>Spare Parts Table</h2>
 
-<table border="1" width="100%" cellpadding="8">
-<tr bgcolor="#c40000">
+<table border="1" cellpadding="8">
+<tr>
     <th>Part ID</th>
     <th>Name</th>
     <th>Brand</th>
@@ -188,16 +240,16 @@ allowfullscreen>
 
 <!-- CONTACT SECTION -->
 <a name="contact"></a>
-<h2><font color="#ff3c3c">Contact Us</font></h2>
+<h2>Contact Us</h2>
 
-<p>Email: gearupmotors@gmail.com</p>
-<p>Phone: +254 712345678</p>
+<p style="font-size:18px;">Email: gearupmotors@gmail.com</p>
+<p style="font-size:18px;">Phone: +254 712345678</p>
 
 <hr>
 
-<center>
-<p>© 2026 Gear Up Motors. All rights reserved.</p>
-</center>
+<p style="background-color:#c40000; padding:10px;">
+© 2026 Gear Up Motors. All rights reserved.
+</p>
 
 </body>
 </html>
