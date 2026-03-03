@@ -4,15 +4,13 @@
     <title>GEAR UP MOTORS</title>
     <meta charset="UTF-8">
 
-    <!-- External CSS -->
-    <link rel="stylesheet" type="text/css" href="style.css">
-
-    <!-- Internal CSS -->
     <style>
         body {
             background-color: #1a1a1a;
             font-family: Arial, sans-serif;
             text-align: center;
+            margin: 0;
+            color: white;
         }
 
         h1 {
@@ -24,16 +22,6 @@
         h2 {
             margin-top: 30px;
             color: #ff3c3c;
-        }
-
-        .container {
-            display: inline-block;
-            background-color: #222;
-            padding: 15px;
-            margin: 15px;
-            border-radius: 15px;
-            box-shadow: 0px 0px 10px #000;
-            width: 320px;
         }
 
         table {
@@ -48,6 +36,7 @@
 
         td, th {
             padding: 10px;
+            border: 1px solid #444;
         }
 
         a {
@@ -66,19 +55,35 @@
             font-weight: bold;
         }
 
+        /* Paragraph 3 - External CSS (now combined here) */
+        .p3 {
+            color: purple;
+            text-decoration: underline;
+        }
+
         /* Highlight 2 - Internal CSS */
         .highlight2 {
             color: orange;
+        }
+
+        /* Highlight 3 - External CSS (now combined here) */
+        .highlight3 {
+            color: yellow;
         }
 
         /* Building 2 - Internal CSS */
         .building2 {
             color: maroon;
         }
+
+        /* Building 3 - External CSS (now combined here) */
+        .building3 {
+            color: brown;
+        }
     </style>
 </head>
 
-<body bgcolor="#111111" text="white" style="margin:0;">
+<body>
 
 <h1>GEAR UP MOTORS</h1>
 
@@ -86,7 +91,6 @@
 
 <a href="#home"><b>Home</b></a> |
 <a href="#about"><b>About</b></a> |
-<a href="#gallery"><b>Gallery</b></a> |
 <a href="#offers"><b>Offers</b></a> |
 <a href="#contact"><b>Contact</b></a>
 
@@ -97,40 +101,171 @@
 <h2>Welcome to Gear Up Motors</h2>
 
 <!-- Paragraph 1 - Inline CSS -->
-<p style="color:blue; font-style:italic;">Get your car running like new!</p>
+<p style="color:blue; font-style:italic;">
+Get your car running like new!
+</p>
 
 <!-- Paragraph 2 - Internal CSS -->
-<p class="p2">We offer high-quality spare parts for every car model.</p>
+<p class="p2">
+We offer high-quality spare parts for every car model.
+</p>
 
 <!-- Paragraph 3 - External CSS -->
-<p class="p3">Fast service, unbeatable prices, and top-notch customer support.</p>
+<p class="p3">
+Fast service, unbeatable prices, and top-notch customer support.
+</p>
 
 <p><u>Visit us today and upgrade your ride!</u></p>
 
 <p>Established in Gear Up Motors <sup>2026</sup>, trusted for over <sup>5</sup> years.</p>
+
 <p>Engine oil price: $40<sub>per liter</sub> ~ save up to <strike>$50</strike></p>
 
-<!-- Highlight 1 - Inline -->
-<p><mark style="color:red;">Exclusive offer this month: Buy 2 tires, get 1 free!</mark></p>
+<!-- Highlight 1 - Inline CSS -->
+<p>
+<mark style="color:red;">
+Exclusive offer this month: Buy 2 tires, get 1 free!
+</mark>
+</p>
 
-<!-- Highlight 2 - Internal -->
-<p><mark class="highlight2">Limited stock available!</mark></p>
+<!-- Highlight 2 - Internal CSS -->
+<p>
+<mark class="highlight2">
+Limited stock available!
+</mark>
+</p>
 
-<!-- Highlight 3 - External -->
-<p><mark class="highlight3">Best deals in town!</mark></p>
+<!-- Highlight 3 - External CSS -->
+<p>
+<mark class="highlight3">
+Best deals in town!
+</mark>
+</p>
 
 <blockquote>
 “Drive safe, drive smart, drive Gear Up.”
 </blockquote>
 
-<!-- Building 1 - Inline -->
+<!-- Building 1 - Inline CSS -->
 <p style="color:white;">Building 1</p>
 
-<!-- Building 2 - Internal -->
+<!-- Building 2 - Internal CSS -->
 <p class="building2">Building 2</p>
 
-<!-- Building 3 - External -->
+<!-- Building 3 - External CSS -->
 <p class="building3">Building 3</p>
+
+<hr>
+
+<!-- ABOUT SECTION -->
+<a name="about"></a>
+<h2>About Our Services</h2>
+
+<p>Gear Up Motors specializes in genuine and aftermarket automotive spare parts.</p>
+<p>Our mission: keeping your ride smooth, powerful, and road-ready.</p>
+
+<ul>
+    <li>Brake Pads</li>
+    <li>Engine Oil</li>
+    <li>Spark Plugs</li>
+    <li>Car Batteries</li>
+    <li>Headlights</li>
+</ul>
+
+<ol>
+    <li>Oil Filter Replacement</li>
+    <li>Brake Check</li>
+    <li>Wheel Alignment</li>
+    <li>Car Wash</li>
+    <li>Interior Detailing</li>
+</ol>
+
+<hr>
+
+<!-- OFFERS SECTION -->
+<a name="offers"></a>
+<h2>Spare Parts Table</h2>
+
+<table>
+<tr>
+    <th>Part ID</th>
+    <th>Name</th>
+    <th>Brand</th>
+    <th>Price</th>
+    <th>Stock</th>
+    <th>Warranty</th>
+    <th>Compatibility</th>
+    <th>Supplier</th>
+    <th>Discount</th>
+    <th>Rating</th>
+</tr>
+
+<tr>
+    <td>001</td>
+    <td>Brake Pads</td>
+    <td>Bosch</td>
+    <td>$50</td>
+    <td>120</td>
+    <td>1 year</td>
+    <td>All cars</td>
+    <td>AutoPro</td>
+    <td>10%</td>
+    <td>4.5</td>
+</tr>
+
+<tr>
+    <td>002</td>
+    <td>Engine Oil</td>
+    <td>Mobil</td>
+    <td>$40</td>
+    <td>300</td>
+    <td>6 months</td>
+    <td>Petrol Cars</td>
+    <td>Lubricants Ltd</td>
+    <td>15%</td>
+    <td>4.8</td>
+</tr>
+
+<tr>
+    <td>003</td>
+    <td>Spark Plugs</td>
+    <td>NGK</td>
+    <td>$15</td>
+    <td>200</td>
+    <td>1 year</td>
+    <td>All cars</td>
+    <td>EngineCare</td>
+    <td>5%</td>
+    <td>4.6</td>
+</tr>
+
+<tr>
+    <td>004</td>
+    <td>Car Battery</td>
+    <td>Exide</td>
+    <td>$120</td>
+    <td>80</td>
+    <td>2 years</td>
+    <td>All cars</td>
+    <td>PowerParts</td>
+    <td>10%</td>
+    <td>4.7</td>
+</tr>
+
+<tr>
+    <td>005</td>
+    <td>Headlights</td>
+    <td>Philips</td>
+    <td>$70</td>
+    <td>150</td>
+    <td>1 year</td>
+    <td>All cars</td>
+    <td>LightWorks</td>
+    <td>12%</td>
+    <td>4.4</td>
+</tr>
+
+</table>
 
 <hr>
 
@@ -149,6 +284,3 @@
 
 </body>
 </html>
-
-
-
