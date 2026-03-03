@@ -59,10 +59,25 @@
         a:hover {
             color: white;
         }
+
+        /* Paragraph 2 - Internal CSS */
+        .p2 {
+            color: orange;
+            font-weight: bold;
+        }
+
+        /* Highlight 2 - Internal CSS */
+        .highlight2 {
+            color: orange;
+        }
+
+        /* Building 2 - Internal CSS */
+        .building2 {
+            color: maroon;
+        }
     </style>
 </head>
 
-<!-- Inline CSS -->
 <body bgcolor="#111111" text="white" style="margin:0;">
 
 <h1>GEAR UP MOTORS</h1>
@@ -81,164 +96,41 @@
 <a name="home"></a>
 <h2>Welcome to Gear Up Motors</h2>
 
-<p><b>Get your car running like new!</b></p>
-<p><i>We offer high-quality spare parts for every car model.</i></p>
-<p><i>Fast service, unbeatable prices, and top-notch customer support.</i></p>
+<!-- Paragraph 1 - Inline CSS -->
+<p style="color:blue; font-style:italic;">Get your car running like new!</p>
+
+<!-- Paragraph 2 - Internal CSS -->
+<p class="p2">We offer high-quality spare parts for every car model.</p>
+
+<!-- Paragraph 3 - External CSS -->
+<p class="p3">Fast service, unbeatable prices, and top-notch customer support.</p>
+
 <p><u>Visit us today and upgrade your ride!</u></p>
 
 <p>Established in Gear Up Motors <sup>2026</sup>, trusted for over <sup>5</sup> years.</p>
 <p>Engine oil price: $40<sub>per liter</sub> ~ save up to <strike>$50</strike></p>
 
-<p><mark>Exclusive offer this month: Buy 2 tires, get 1 free!</mark></p>
+<!-- Highlight 1 - Inline -->
+<p><mark style="color:red;">Exclusive offer this month: Buy 2 tires, get 1 free!</mark></p>
+
+<!-- Highlight 2 - Internal -->
+<p><mark class="highlight2">Limited stock available!</mark></p>
+
+<!-- Highlight 3 - External -->
+<p><mark class="highlight3">Best deals in town!</mark></p>
 
 <blockquote>
 “Drive safe, drive smart, drive Gear Up.”
 </blockquote>
 
-<hr>
+<!-- Building 1 - Inline -->
+<p style="color:white;">Building 1</p>
 
-<!-- ABOUT SECTION -->
-<a name="about"></a>
-<h2>About Our Services</h2>
+<!-- Building 2 - Internal -->
+<p class="building2">Building 2</p>
 
-<p>Gear Up Motors specializes in genuine and aftermarket automotive spare parts.</p>
-<p>Our mission: keeping your ride smooth, powerful, and road-ready.</p>
-
-<ul>
-    <li>Brake Pads</li>
-    <li>Engine Oil</li>
-    <li>Spark Plugs</li>
-    <li>Car Batteries</li>
-    <li>Headlights</li>
-</ul>
-
-<ol>
-    <li>Oil Filter Replacement</li>
-    <li>Brake Check</li>
-    <li>Wheel Alignment</li>
-    <li>Car Wash</li>
-    <li>Interior Detailing</li>
-</ol>
-
-<hr>
-
-<!-- GALLERY SECTION -->
-<a name="gallery"></a>
-<h2>Gallery & Video</h2>
-
-<div class="container">
-    <img src="https://4.imimg.com/data4/RP/VH/MY-4704505/automotive-spare-parts.jpg" width="300">
-</div>
-
-<div class="container">
-    <img src="https://naanak.com/wp-content/uploads/2021/11/Volkswagen-Spare-Parts-In-Nairobi-Kenya.jpg" width="300">
-</div>
-
-<div class="container">
-    <img src="https://5.imimg.com/data5/SELLER/Default/2023/11/361056031/NF/HU/OW/62417136/car-interior-accessories-500x500.jpg" width="300">
-</div>
-
-<div class="container">
-    <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70" width="300">
-</div>
-    <div clas="container">
-        <img src="https://c8.alamy.com/comp/2YCNRGR/open-engine-2YCNRGR.jpg" width="300">
-        
-    </div>
-
-<div class="container">
-    <iframe width="300" height="200"
-    src="https://www.youtube.com/embed/x70VqMrXrbs"
-    frameborder="1"
-    allowfullscreen>
-    </iframe>
-</div>
-
-<hr>
-
-<!-- OFFERS SECTION -->
-<a name="offers"></a>
-<h2>Spare Parts Table</h2>
-
-<table border="1" cellpadding="8">
-<tr>
-    <th>Part ID</th>
-    <th>Name</th>
-    <th>Brand</th>
-    <th>Price</th>
-    <th>Stock</th>
-    <th>Warranty</th>
-    <th>Compatibility</th>
-    <th>Supplier</th>
-    <th>Discount</th>
-    <th>Rating</th>
-</tr>
-
-<tr>
-    <td>001</td>
-    <td>Brake Pads</td>
-    <td>Bosch</td>
-    <td>$50</td>
-    <td>120</td>
-    <td>1 year</td>
-    <td>All cars</td>
-    <td>AutoPro</td>
-    <td>10%</td>
-    <td>4.5</td>
-</tr>
-
-<tr>
-    <td>002</td>
-    <td>Engine Oil</td>
-    <td>Mobil</td>
-    <td>$40</td>
-    <td>300</td>
-    <td>6 months</td>
-    <td>Petrol Cars</td>
-    <td>Lubricants Ltd</td>
-    <td>15%</td>
-    <td>4.8</td>
-</tr>
-
-<tr>
-    <td>003</td>
-    <td>Spark Plugs</td>
-    <td>NGK</td>
-    <td>$15</td>
-    <td>200</td>
-    <td>1 year</td>
-    <td>All cars</td>
-    <td>EngineCare</td>
-    <td>5%</td>
-    <td>4.6</td>
-</tr>
-
-<tr>
-    <td>004</td>
-    <td>Car Battery</td>
-    <td>Exide</td>
-    <td>$120</td>
-    <td>80</td>
-    <td>2 years</td>
-    <td>All cars</td>
-    <td>PowerParts</td>
-    <td>10%</td>
-    <td>4.7</td>
-</tr>
-
-<tr>
-    <td>005</td>
-    <td>Headlights</td>
-    <td>Philips</td>
-    <td>$70</td>
-    <td>150</td>
-    <td>1 year</td>
-    <td>All cars</td>
-    <td>LightWorks</td>
-    <td>12%</td>
-    <td>4.4</td>
-</tr>
-</table>
+<!-- Building 3 - External -->
+<p class="building3">Building 3</p>
 
 <hr>
 
