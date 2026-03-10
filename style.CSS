@@ -1,0 +1,44 @@
+/* Styling the whole page */
+body{
+    background-color:#111;
+    font-family:Arial;
+    color:white;
+    text-align:center;
+}
+
+/* ID Styling */
+
+#main-title{
+    color:red;
+    font-size:40px;
+}
+
+#important-paragraph{
+    color:yellow;
+    font-weight:bold;
+}
+
+
+/* Class Styling */
+
+.section-title{
+    color:orange;
+}
+
+.service-title{
+    color:lightblue;
+}
+
+.offer-title{
+    color:lime;
+}
+
+.paragraph-style{
+    color:white;
+    font-size:16px;
+}
+
+.service-paragraph{
+    color:lightgray;
+    font-style:italic;
+}
